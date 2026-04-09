@@ -7,12 +7,7 @@ export default function LockScreen() {
   const router = useRouter();
 
   return (
-    <View style={{
-      flex: 1,
-      backgroundColor: "black",
-      justifyContent: "center",
-      alignItems: "center"
-    }}>
+    <View style={{ flex: 1, backgroundColor: "black", justifyContent: "center", alignItems: "center" }}>
       <Text style={{ color: "white", fontSize: 22, marginBottom: 20 }}>
         🔐 For Someone Special ❤️
       </Text>
@@ -38,11 +33,7 @@ export default function LockScreen() {
           if (password === "sonal123") router.push("/story");
           else alert("Wrong password 💔");
         }}
-        style={{
-          backgroundColor: "#ff4d88",
-          padding: 12,
-          borderRadius: 20
-        }}
+        style={{ backgroundColor: "#ff4d88", padding: 12, borderRadius: 20 }}
       >
         <Text style={{ color: "white" }}>Unlock 💖</Text>
       </TouchableOpacity>

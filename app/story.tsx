@@ -40,31 +40,12 @@ export default function StoryScreen() {
   };
 
   return (
-    <View style={{
-      flex: 1,
-      backgroundColor: "black",
-      justifyContent: "center",
-      alignItems: "center",
-      padding: 20
-    }}>
-      <Text style={{
-        color: "white",
-        fontSize: 22,
-        textAlign: "center",
-        minHeight: 80
-      }}>
+    <View style={{ flex: 1, backgroundColor: "black", justifyContent: "center", alignItems: "center", padding: 20 }}>
+      <Text style={{ color: "white", fontSize: 22, textAlign: "center", minHeight: 80 }}>
         {display}
       </Text>
 
-      <TouchableOpacity
-        onPress={next}
-        style={{
-          marginTop: 30,
-          backgroundColor: "#ff4d88",
-          padding: 12,
-          borderRadius: 25
-        }}
-      >
+      <TouchableOpacity onPress={next} style={{ marginTop: 30, backgroundColor: "#ff4d88", padding: 12, borderRadius: 25 }}>
         <Text style={{ color: "white" }}>Next ➡️</Text>
       </TouchableOpacity>
     </View>
