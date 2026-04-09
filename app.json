@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "For Sonal ❤️",
+    "slug": "lovia-ai",
+    "icon": "./assets/icon.png",
+    "android": {
+      "package": "com.aditya.loviaai"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "33e22274-82de-4d0a-829b-9107f4e25821"
+      }
+    }
+  }
+}
